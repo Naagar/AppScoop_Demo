@@ -1,0 +1,84 @@
+.calender{
+    color: #8cc63f;
+    margin-top: 25px;
+    font-weight: 600;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.calenderButton{
+  height: 25px;
+    border: none;
+    border-radius: 20px;
+    width: 105px;
+}
+.heading h3{
+  color:#8cc63f;
+  margin-top: 20px;
+   font-weight: 600;
+}
+.heading h4{
+  color: #8cc63f;
+    margin-top: 20px;
+    font-weight: 600;
+    border: 2px solid #8cc63f;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px 12px;
+    cursor: pointer;
+}
+.heading h4:hover{
+  color: white;
+  background-color: #8cc63f;
+}
+
+.selectbox{
+  color:#8cc63f;
+    padding: 6px;
+    font-weight: 600;
+    border: 2px solid;
+    margin-top: 30px;
+}
+.scheduleTbl table { 
+    border-collapse: collapse;   
+} 
+.scheduleTbl tbody tr{
+  -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+}
+.scheduleTbl th { 
+   background-color: transparent !important;
+    Color:#000000; 
+    font-size: 18px;
+} 
+.scheduleTbl td { 
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  font-weight: 600;
+  color: #000000b8;
+  
+  font-size: 17px;
+} 
+
+.scheduleTbl { 
+    border-collapse:separate; 
+    border-spacing:0 15px; 
+    width: 100%;
+}
+
+.footer
+  {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 17%;
+    right: 0px;
+    margin-bottom: 0px;
+  }
+  .downloadall{
+    font-size: 16px;
+    font-weight: bold;
+  }

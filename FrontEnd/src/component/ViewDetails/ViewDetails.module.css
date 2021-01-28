@@ -1,0 +1,79 @@
+.heading h3{
+    color:#8cc63f;
+    margin-top: 20px;
+     font-weight: 600;
+  }
+  .labelInput{
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 3px
+  }
+  @media screen and (max-width:425px) {
+    .labelInput{
+      float: left;
+      font-size: 17px;
+      font-weight: bold;
+      color: gray;
+      padding-top: 3px
+    }
+    .cardBody{
+      width:90%;
+      padding-left: 5%;
+      margin-left: 5%;
+    }
+}
+  .inputField{
+    border: 1px solid #aaa;
+    width: 80%;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 15px;
+    outline: none;
+  }
+  .makeCenter{
+    display: flex;
+    justify-content: center;
+  }
+  .fileinput{
+    display: none;
+}
+.imgdiv{
+    height: 130px;
+    width:130px;
+    border-radius: 8px;
+    border:1px solid #aaa;
+    margin-top: 7px;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+}
+.img2{
+    height: 120px;
+    width:130px;
+    border:1px solid #aaa;
+  
+    border-radius: 8px;
+}
+.cameraIcon{
+    color: orange;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 113px;
+    left: 120px;
+}
+.para{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 23px;
+    font-weight: bold;
+    color: gray;
+}
+.errorMsg{
+   
+    height:30px;
+    border:1px solid #FFF
+}

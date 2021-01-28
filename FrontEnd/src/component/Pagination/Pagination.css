@@ -1,0 +1,45 @@
+.showPagination{
+    width: 23px;
+    height: 23px;
+    margin-left: 3px;    
+    display: inline-block;
+    color: black;
+    font-size: 17px;
+    text-align: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+.pagination{
+    display: block;
+    position: absolute;
+    right: 0;
+    left:0;
+    text-align: center;
+}
+
+.active1{
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    margin-left: 3px;    
+    display: inline-block;
+    font-size: 20px;
+    padding: 0;
+    font-weight: bold;
+    color:#8cc63f;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+.dot{
+    display: inline-block;
+    user-select: none;
+    margin-left: 10px; 
+}
+.arrow:hover{
+    font-size: x-large !important;
+    transition: .2s font-size;
+}

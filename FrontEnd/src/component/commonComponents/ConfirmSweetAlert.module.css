@@ -1,0 +1,36 @@
+.confirmButton{
+    background: #8cc63f;
+    border-radius: 50px;
+    width: 100px;
+    border: none;
+    padding: 0.250rem 0.75rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.confirmButton:hover{
+    color: white;
+}
+
+.confirmButton:active{
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+
+.cancelButton{
+    background: white; 
+    border-radius: 50px; 
+    width: 100px; 
+    border: 1px solid #8cc63f;
+    padding: 0.250rem 0.75rem;
+    color: #8cc63f !important;
+    text-decoration: none!important;
+    margin-right: 10px!important;
+}
+
+.cancelButton:active{
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+.msgStyle{
+    font-weight: bold;
+    color: black;
+}
